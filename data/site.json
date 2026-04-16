@@ -1,0 +1,28 @@
+{
+  "siteName": "CocoroMedi",
+  "tagline": "すべての医療職に、働き続ける誇りと生きがいを",
+  "description": "CocoroMediは、医療現場で働く方々のこころの健康を組織ぐるみで支援するプラットフォームです。",
+  "services": [
+    {
+      "name": "CocoTALK",
+      "description": "個人のつらさを組織が向き合える課題に変えます。"
+    },
+    {
+      "name": "CocoONE",
+      "description": "ケアする人がケアされる側に戻る瞬間を作ります。"
+    },
+    {
+      "name": "Coco3",
+      "description": "違う病院の医療職3人を繋ぐバディシステム。日常で孤立を防ぎます。"
+    }
+  ],
+  "contact": {
+    "email": "info@cocoromedi.com",
+    "phone": "+81-3-1234-5678"
+  },
+  "socialLinks": {
+    "facebook": "https://facebook.com/cocoromedi",
+    "twitter": "https://twitter.com/cocoromedi",
+    "instagram": "https://instagram.com/cocoromedi"
+  }
+}
