@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)",
+      "Bash(where python3:*)",
+      "Bash(where python:*)",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\aya\\\\.claude\\\\projects\\\\C--Users-aya-HP-\\\\c8a83ead-c566-4bfc-89e6-c263ee021312.jsonl' | Select-Object -First 1 | ConvertFrom-Json | Select-Object -ExpandProperty type\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
