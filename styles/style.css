@@ -798,8 +798,17 @@
     .section { padding: 80px 24px; }
     #hero { padding: 110px 24px 70px; }
     .hero-inner { flex-direction: column; }
-    .hero-image { width: 100%; }
-    .hero-image img { max-width: 100%; }
+    .hero-image {
+      width: 100%;
+      margin-top: 0;
+      margin-left: 0;
+      order: 0;
+    }
+    .hero-image img {
+      max-width: 280px;
+      max-height: 280px;
+      margin: 0 auto;
+    }
     .hero-stats { gap: 26px; }
     .service-card { flex-direction: column; border-left-width: 0; border-top: 6px solid transparent; }
     .service-card:nth-child(1) { border-top-color: var(--coral); }
@@ -835,4 +844,8 @@
     .section-sub { font-size: 1rem; }
     .service-body { font-size: 1rem; }
     .service-heading { font-size: 1.1rem; }
+    .hero-image img {
+      max-width: 220px;
+      max-height: 220px;
+    }
   }
