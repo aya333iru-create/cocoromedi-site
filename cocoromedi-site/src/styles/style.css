@@ -798,15 +798,17 @@
     .section { padding: 80px 24px; }
     #hero { padding: 110px 24px 70px; }
     .hero-inner { flex-direction: column; }
+    #hero { overflow: visible; }
     .hero-image {
       width: 100%;
       margin-top: 0;
       margin-left: 0;
       order: 0;
+      padding-top: 16px;
     }
     .hero-image img {
-      max-width: 280px;
-      max-height: 280px;
+      max-width: 200px;
+      max-height: 200px;
       margin: 0 auto;
     }
     .hero-stats { gap: 26px; }
