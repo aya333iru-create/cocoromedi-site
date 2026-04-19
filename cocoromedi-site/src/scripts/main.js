@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
+
     // ── Contact form ──────────────────────────────────────────
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
