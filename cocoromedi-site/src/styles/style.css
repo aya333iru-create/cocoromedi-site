@@ -854,7 +854,7 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    nav#main-nav { padding: 14px 24px; }
+    nav#main-nav { padding: 14px 42px; }
     .nav-links { display: none; }
     .hamburger { display: flex; }
     .section { padding: 80px 24px; }
