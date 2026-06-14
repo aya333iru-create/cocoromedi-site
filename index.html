@@ -400,6 +400,30 @@
       alert('送信に失敗しました。もう一度お試しください。');
     }
   });
+
+  // Replace Coco3 and CocoONE images at runtime when replacements exist
+  (function(){
+    document.querySelectorAll('.service-card').forEach(card=>{
+      const nameEl = card.querySelector('.service-name');
+      if(!nameEl) return;
+      const name = nameEl.textContent.trim();
+      const img = card.querySelector('.service-img img');
+      if(!img) return;
+
+      if(name === 'Coco3'){
+        img.src = 'images/coco3-nurses.svg';
+        img.alt = 'Coco3：他院の看護師3名をつなぐイメージ';
+        img.style.objectFit = 'contain';
+      }
+
+      if(name === 'CocoONE'){
+        img.src = 'images/cocone-photo.jpg';
+        img.alt = 'CocoONE個別相談の様子';
+        img.style.objectFit = 'contain';
+      }
+    });
+  })();
+
 </script>
 </body>
 </html>
